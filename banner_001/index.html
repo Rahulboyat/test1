@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="owl.theme.default.css"> -->
+    <!-- <link rel="stylesheet" href="owl.theme.default.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <!-- <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+    <title>banner</title> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="css/splide.min.css">
+</head>
+
+<body>
+    <section class="bg_container">
+
+
+        <div class="background_img">
+            <div class="banner_text">
+                <div class="container bg_conn">
+                    <div class="row text-center">
+                        <div class="col-10 mx-auto ">
+
+                            <div class="logo"><img src="img/logo1.png" class="img-fluid">
+                            </div>
+                            <h1>DRAW INTERIOR</h1>
+                            <section class="splide" aria-label="Splide Basic HTML Example">
+                                <div class="splide__track">
+
+                                    <ul class="splide__list">
+                                        <li class="splide__slide" data-splide-interval="1000">DROW</li>
+                                        <li class="splide__slide" data-splide-interval="1000">INTERIOR</li>
+                                        <li class="splide__slide" data-splide-interval="1050">DROW</li>
+                                        <li class="splide__slide" data-splide-interval="1100">INTERIOR</li>
+                                        <li class="splide__slide" data-splide-interval="1150">DROW</li>
+
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="owl.carousel.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- <script src="owl.carousel.min.js"></script> -->
+    <script src="js/splide.min.js"></script>
+
+
+    <!-- <script>
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 2500,
+            center: true,
+
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script> -->
+
+
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'fade',
+            rewind: true,
+            autoplay: true,
+        });
+
+        splide.mount();
+
+    </script>
+</body>
+
+</html>
